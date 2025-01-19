@@ -3,7 +3,7 @@
 </p>
 
 <h1>Active Directory: Environment/Infrastructure Preparation 🪟</h1>
-In the first section of this lab we are preparing multiple environments to execute the different functions of the lab. We required a Windows 11 OS Virtual Environment, a Windows Server 22 Datacenter, a connection between the Domain Controller VM (which will be called Vnet-VM in this lab) and the Windows 11 OS VM (which will be called Client-1-VM). We established this connection by setting the DCs (Domain Controllers) Private IP address to static and pointing the Windows OS Client-1 DNS Server to the Private IP of the DC
+In the first section of this lab we are preparing multiple environments to execute the different functions of the lab. We required a Windows 11 OS Virtual Environment, a Windows Server 22 Datacenter (Domain Controller), a connection between the Domain Controller VM (which will be called Vnet-VM in this lab) and the Windows 11 OS VM (which will be called Client-1-VM). We established this connection by setting the DCs (Domain Controllers) Private IP address to static and pointing the Windows OS Client-1 DNS Server to this Static Private IP of the DC.
 
 (Link Back to Main Project Contents Page is at the Bottom of this Repo)
 <h2>Environments and Technologies Used</h2>
