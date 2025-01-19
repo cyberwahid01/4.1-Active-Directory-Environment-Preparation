@@ -26,14 +26,12 @@ In the first section of this lab we are preparing multiple environments to execu
 - Microsoft Azure Subscription Credit 
 
 <h2>Installation, Setup, Resource Setup, Executing Functions</h2>
-
-1. 
-
+1. Thus far in this Azure project we have only used Windows 11 and Ubuntu Virtual Machines but for this lab we need a Windows Server 22 Virtual Machine which will act as our Domain Controller.
 <p>
 <img src="https://i.imgur.com/Ioa3Bzx.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-2. 
+2. There is currently a Private IP address assigned to the DCs Network Interface Controller, we have changed this to static in order to allow a steady connection between the Client-1 OS DNS Servers and the DC.
 </p>
 <br />
 
@@ -41,7 +39,7 @@ In the first section of this lab we are preparing multiple environments to execu
 <img src="https://i.imgur.com/rrfOvap.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-3. 
+3. Here we are pointing the "Client" OS DNS Servers to the Domain Controllers Private IP address to establish a connection between the 2 Machines. 
 </p>
 <br />
 
@@ -49,7 +47,7 @@ In the first section of this lab we are preparing multiple environments to execu
 <img src="https://i.imgur.com/QTDhEsm.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-4. 
+4. To test the connection between the Client and the DC, we used the Ping Command to send an ICMP Echo request to the DC and via the Echo replies we can see that there is a stable connection between the Client and the DC.
 </p>
 <br />
 
@@ -57,7 +55,7 @@ In the first section of this lab we are preparing multiple environments to execu
 <img src="https://i.imgur.com/Acnv18Q.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-5. 
+5. By issuing the ipconfig /all command from our Client VM, we can see clearly the DNS Servers IP Address as 10.0.0.4 which is the Private IP address of our DC.
 </p>
 <br />
 
