@@ -27,7 +27,9 @@ In the first section of this lab we are preparing multiple environments to execu
 
 <h2>Installation, Setup, Resource Setup, Executing Functions</h2>
 1. Thus far in this Azure project we have only used Windows 11 and Ubuntu Virtual Machines but for this lab we need a Windows Server 22 Virtual Machine which will act as our Domain Controller.
-<p>
+</p>
+<br />
+
 <img src="https://i.imgur.com/Ioa3Bzx.png" alt="Disk Sanitization Steps"/>
 </p>
 <p>
