@@ -12,7 +12,6 @@ In the first section of this lab we are preparing multiple environments to execu
 - Microsoft Azure Resource Group
 - Microsoft Azure Windows 10 Pro version 22H2 - x64 Gen2 Virtual Machine
 - Microsoft Azure Windows Server 22 Datacenter: Azure Edition - x64 Gen2 Virtual Machine
-- osTicket Software and File Dependencies
 
 <h2>Operating Systems Used </h2>
 
